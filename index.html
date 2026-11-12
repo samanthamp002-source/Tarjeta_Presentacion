@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi tarjeta de presentación</title>
+    <style>
+        /* Color de fondo y tipografía general */
+        body {
+            background-color: #fdf2f8; /* Rosa muy pálido para el fondo */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 16px;
+            color: #4a4a4a; /* Gris oscuro para facilitar la lectura */
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Selector de ID para la tarjeta o contenedor principal */
+        #tarjeta-presentacion {
+            background-color: #ffffff; /* Tarjeta en blanco puro */
+            max-width: 500px;
+            margin: 40px auto; /* Centra la tarjeta horizontalmente y da margen arriba/abajo */
+            padding: 30px;
+            border: 2px solid #f472b6; /* Borde rosa medio */
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(219, 39, 119, 0.12); /* Sombra sutil rosada */
+        }
+
+        /* Selector de clase para el encabezado principal */
+        .titulo-principal {
+            color: #db2777; /* Rosa intenso para destacar tu nombre */
+            text-align: center;
+            font-size: 26px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+
+        /* Estilo para la imagen opcional */
+        .foto-perfil {
+            display: block;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 15px auto;
+            border: 3px solid #f9a8d4; /* Borde rosa pastel para la foto */
+            object-fit: cover;
+        }
+
+        /* Párrafo de presentación */
+        .presentacion {
+            text-align: center;
+            line-height: 1.6;
+            margin-bottom: 25px;
+            color: #6b7280;
+        }
+
+        /* Subtítulos de secciones */
+        h2 {
+            color: #be185d; /* Rosa frambuesa para los subtítulos */
+            font-size: 20px;
+            border-bottom: 1px solid #fbcfe8; /* Línea divisoria rosa suave */
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+
+        /* Listas de intereses y conocimientos */
+        .lista {
+            padding-left: 20px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="tarjeta-presentacion">
+        
+        <img src="https://via.placeholder.com/120" alt="Foto de perfil" class="foto-perfil">
+
+        <h1 class="titulo-principal">Samantha María Montaño Piña</h1>
+
+        <p class="presentacion">
+            Estudiante de Ingeniería en Sistemas Computacionales con enfoque en gestión de proyectos tecnológicos, análisis de datos y diseño de arquitecturas de software.
+        </p>
+
+        <h2>Mis intereses</h2>
+        <ul class="lista">
+            <li>Gestión y liderazgo de proyectos</li>
+            <li>Análisis y visualización de datos</li>
+            <li>Diseño de interfaces minimalistas</li>
+        </ul>
+
+        <h2>Mis conocimientos</h2>
+        <ul class="lista">
+            <li>Power BI y modelado dimensional</li>
+            <li>Bases de datos SQL y arquitectura de sistemas</li>
+            <li>Desarrollo web (HTML y CSS)</li>
+        </ul>
+
+    </div>
+
+</body>
+</html>
